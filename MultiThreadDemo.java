@@ -9,7 +9,6 @@ class ThreadX extends Thread{
 				Thread.sleep(1000);
 	    	     }
 			} catch (InterruptedException e) {
-				
 				e.printStackTrace();
 			}
 	     }
@@ -26,7 +25,6 @@ class ThreadY extends Thread{
 				Thread.sleep(1500);
 				}
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
